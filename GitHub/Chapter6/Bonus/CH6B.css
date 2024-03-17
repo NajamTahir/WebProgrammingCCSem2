@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+h1 {
+    color: #333;
+}
+
+#colorDisplay {
+    margin: 20px auto;
+    width: 200px;
+    height: 200px;
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+#message {
+    margin: 10px 0;
+    color: #333;
+}
+
+#options {
+    margin: 20px auto;
+}
+
+.option {
+    display: inline-block;
+    margin: 10px;
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+#score, #lives {
+    margin-top: 20px;
+}
+
+#restartBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+}
+
+#restartBtn:hover {
+    background-color: #555;
+}
