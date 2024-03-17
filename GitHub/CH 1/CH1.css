@@ -1,0 +1,64 @@
+/* Style for the body */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Style for the heading */
+h1 {
+    text-align: center;
+    color: #00b950;
+}
+
+/* Style for the paragraph */
+p {
+    text-align: center;
+    color: #aa00ff;
+    margin-bottom: 20px;
+}
+
+/* Style for the headings (Ingredients, Method) */
+h2 {
+    color: #1900b9;
+    margin-top: 30px;
+}
+
+/* Style for the unordered list */
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+/* Style for list items */
+li {
+    margin-bottom: 10px;
+}
+
+/* Style for the ordered list */
+ol {
+    padding-left: 20px;
+}
+
+/* Style for the ordered list items */
+ol li {
+    margin-bottom: 10px;
+}
+
+/* Style for the baking steps */
+ol li:nth-child(8), ol li:nth-child(9) {
+    font-weight: bold;
+}
+
+/* Style for the links */
+a {
+    color: #33b79d;
+    text-decoration: none;
+}
+
+/* Hover effect for the links */
+a:hover {
+    text-decoration: underline;
+}
